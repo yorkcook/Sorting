@@ -17,8 +17,6 @@ def merge( arrA, arrB ):
         merged_arr.extend(arrB[arrB_index:])
     else:
          merged_arr.extend(arrA[arrA_index:])
-    # merged_arr = merged_arr +arrA[arrA_index:]
-    # merged_arr = merged_arr +arrB[arrB_index:]
 
     return merged_arr
 
